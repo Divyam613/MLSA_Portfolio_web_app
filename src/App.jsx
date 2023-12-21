@@ -27,12 +27,12 @@ const siteProps = {
   name: "Divyam Sharma",
   title: "Software Developer and web Developer",
   email: "divyamsharma613@gmail.com",
-  gitHub: "https://github.com/Divyam613",
-  instagram: "https://www.instagram.com/sharma_ji_divyam",
-  linkedIn: "Https://www.linkedin.com/in/divyam-sharma-107b5a25a",
+  gitHub: "Divyam613",
+  instagram: "sharma_ji_divyam",
+  linkedIn: "divyam-sharma-107b5a25a",
   medium: "",
-  twitter: "https://twitter.com/Divyam613?t=Bk0fri86zdOY7NNptZIrrA&s=09",
-  youTube: "https://www.youtube.com/channel/UClfgRGF1AoSL2RtX5QSujPQ",
+  twitter: "Divyam613?t=Bk0fri86zdOY7NNptZIrrA&s=09",
+  youTube: "UClfgRGF1AoSL2RtX5QSujPQ",
 };
 
 const primaryColor = "#4E567E";
