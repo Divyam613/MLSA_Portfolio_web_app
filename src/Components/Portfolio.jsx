@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/laptop with hands.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "laptop with notepad";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Resume builder",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This is a resume builder website. Created using HTML, CSS and java scirpt. this will help you to create your resume in a very easy way. ",
+    url: "https://github.com/Divyam613/Resume_builder.git",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Hill_valley project",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This is ML based project which is used to predict the hill and valley. Created using python and machine learning. ",
+    url: "https://github.com/Divyam613/Hill_Valley-project.git",
   },
   {
-    title: "My Resume Site",
+    title: "My portfolio Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This website created using HTML, CSS and react. website is deployed using Microsoft azure platform.",
+    url: "https://gray-field-05675f500.4.azurestaticapps.net",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Amazon website clone",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This is a clone of the Amazon website. Created using HTML and CSS on the visual studio code platform. ",
+    url: "https://divyam613.github.io/OCTANET_AUGUST/",
   },
 ];
 
