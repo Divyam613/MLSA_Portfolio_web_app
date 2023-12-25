@@ -37,7 +37,7 @@ section img.background {
   height: 100%;
   left: 50%;
   object-fit: cover;
-  pointer-events: none;
+  /* pointer-events: none; */
   position: absolute;
   top: 0;
   transform: translate(-50%, 0);
@@ -105,7 +105,7 @@ a:hover {
 .container {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 330px 300px;
+  grid-template-columns: 1fr 1fr;
   margin: 20px auto;
 }
 
@@ -122,4 +122,34 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+.card_container {
+  display: flex;
+}
+@media (max-width: 1059px) {
+  .card_container {
+    flex-direction: column;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+  .background {
+    width: 100vw;
+  }
+  section.min-height {
+    min-height: 50vh;
+  }
+  section img.background {
+    height: 100%;
+    left: 50%;
+    object-fit: cover;
+    /* pointer-events: none; */
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, 0);
+    width: 100vmax;
+    z-index: -1;
+  }
 }
