@@ -32,7 +32,7 @@ const description =
  */
 const skillsList = [
   "Web developer",
-  "software developer",
+  "Software developer",
   "Machine learning",
   "Data analytics",
   "front-end developer",
@@ -63,15 +63,7 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
+        <ul class="Skills">
           {skillsList.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
